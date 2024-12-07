@@ -1,6 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
 .main {
     text-align: center;
+    margin-top: 50px;
 }
+
 .item-1,
 .item-2,
 .item-3,
@@ -25,4 +33,31 @@ h1 {
 
 p {
     text-align: center;
+}
+
+.a,
+.b,
+.c {
+    text-align: center;
+    display: inline-block;
+    font-size: xx-large;
+}
+
+.a {
+    margin-left: 50px;
+}
+
+.b {
+    margin-left: 600px;
+}
+
+.c {
+    margin-left: 600px;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding: 20px;
 }
